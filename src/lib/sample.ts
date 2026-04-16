@@ -1,0 +1,29 @@
+// Embedded sample CSV — mirrors sample-data/sample_accounts.csv so the
+// app shows immediate value on first load with zero setup.
+export const SAMPLE_CSV = `account_id,company_name,industry,employees,arr_usd,csm_owner,health_score,engagement_score,last_login_days_ago,renewal_quarter,nps,risk_flag,onboarding_status,seats_active,seats_total
+AC-2001,Briartree Brewing,Hospitality,420,84000,Jordan Reyes,82,71,3,Q2-2026,8,green,Complete,388,420
+AC-2002,Foundry Robotics,Manufacturing,1260,312000,Sam Patel,91,88,1,Q3-2026,9,green,Complete,1180,1260
+AC-2003,Glide Logistics,Logistics,840,196000,Avery Kim,54,42,21,Q1-2026,5,red,Complete,510,840
+AC-2004,Harvest Mutual Bank,Financial Services,2100,520000,Jordan Reyes,77,68,5,Q2-2026,7,yellow,Complete,1980,2100
+AC-2005,Lumen Architecture,Professional Services,180,42000,Sam Patel,88,79,2,Q4-2026,9,green,Complete,168,180
+AC-2006,Northwind Outdoor Co,Retail,610,148000,Avery Kim,63,55,9,Q1-2026,6,yellow,Complete,545,610
+AC-2007,Polaris Med Devices,Healthcare,950,238000,Jordan Reyes,84,76,4,Q3-2026,8,green,Complete,902,950
+AC-2008,Quill Public Schools,Education,3400,410000,Sam Patel,72,64,7,Q2-2026,7,yellow,In Progress,2980,3400
+AC-2009,Riverstone Realty,Real Estate,290,68000,Avery Kim,46,38,28,Q1-2026,4,red,Complete,170,290
+AC-2010,Sable Energy Co-op,Utilities,1480,358000,Jordan Reyes,89,82,2,Q4-2026,9,green,Complete,1440,1480
+AC-2011,Tinder Press,Media,210,52000,Sam Patel,68,59,12,Q2-2026,6,yellow,Complete,184,210
+AC-2012,Umbra Game Studios,Technology,520,128000,Avery Kim,93,90,1,Q3-2026,10,green,Complete,510,520
+AC-2013,Verdant Foods Group,Food and Beverage,1820,432000,Jordan Reyes,75,67,6,Q1-2026,7,yellow,Complete,1690,1820
+AC-2014,Westline Insurance,Insurance,2700,610000,Sam Patel,81,72,4,Q2-2026,8,green,Complete,2540,2700
+AC-2015,Yarrow Apparel,Retail,470,108000,Avery Kim,41,32,35,Q1-2026,3,red,Complete,260,470
+AC-2016,Zenith Aerospace,Manufacturing,1640,402000,Jordan Reyes,87,80,3,Q4-2026,9,green,Complete,1590,1640
+AC-2017,Beacon Childcare Network,Education,890,182000,Sam Patel,70,62,8,Q2-2026,7,yellow,In Progress,710,890
+AC-2018,Cobalt Cloud Services,Technology,360,98000,Avery Kim,90,85,2,Q3-2026,9,green,Complete,348,360
+AC-2019,Drift Hospitality Group,Hospitality,720,168000,Jordan Reyes,58,49,18,Q1-2026,5,red,Complete,510,720
+AC-2020,Echo Sound Labs,Media,140,36000,Sam Patel,86,78,4,Q4-2026,8,green,Complete,134,140
+AC-2021,Field & Meadow Coop,Food and Beverage,640,142000,Avery Kim,74,66,7,Q2-2026,7,yellow,Complete,580,640
+AC-2022,Granite Pacific Bank,Financial Services,3200,728000,Jordan Reyes,92,87,1,Q3-2026,10,green,Complete,3110,3200
+AC-2023,Hollow Pines Resorts,Hospitality,1080,248000,Sam Patel,52,40,24,Q1-2026,4,red,Complete,690,1080
+AC-2024,Ivory Lane Cosmetics,Retail,260,62000,Avery Kim,79,70,5,Q2-2026,8,green,Complete,244,260
+AC-2025,Jasper Civil Engineers,Professional Services,540,128000,Jordan Reyes,83,75,3,Q4-2026,8,green,Complete,512,540
+`;

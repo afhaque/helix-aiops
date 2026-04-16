@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --cream: #F5F0E1;
+  --parchment: #EAE2CB;
+  --teal: #0F4C49;
+  --teal2: #176E69;
+  --amber: #E0A24A;
+  --ink: #1F2A2A;
+  --slate: #5C6A66;
+}
+
+html, body {
+  background: var(--cream);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+.bloom {
+  background:
+    radial-gradient(60% 60% at 30% 30%, rgba(125, 168, 155, 0.18) 0%, rgba(245, 240, 225, 0) 70%),
+    radial-gradient(50% 50% at 80% 70%, rgba(224, 162, 74, 0.15) 0%, rgba(245, 240, 225, 0) 70%);
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+.dot-amber::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 9999px;
+  background: var(--amber);
+  margin-right: 8px;
+  vertical-align: middle;
+}
