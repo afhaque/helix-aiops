@@ -38,3 +38,31 @@ html, body {
   margin-right: 8px;
   vertical-align: middle;
 }
+
+@media print {
+  html, body {
+    background: #FFFFFF !important;
+  }
+  main {
+    background: #FFFFFF !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .bloom {
+    background: #FFFFFF !important;
+  }
+  .max-w-7xl {
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+  .grid {
+    grid-template-columns: 1fr !important;
+    gap: 12px !important;
+  }
+  section {
+    page-break-inside: avoid;
+    background: #FFFFFF !important;
+    border-color: #DDDDDD !important;
+  }
+}

@@ -1,23 +1,24 @@
-export type Account = {
-  account_id: string;
+export type Customer = {
+  customer_id: string;
   company_name: string;
   industry: string;
+  company_size: string;
   employees: number;
-  arr_usd: number;
-  csm_owner: string;
-  health_score: number;
-  engagement_score: number;
+  plan: string;
+  contract_type: string;
+  mrr: number;
+  start_date: string;
+  churn_date: string;
+  status: "Active" | "At-Risk" | "Churned";
+  csm_assigned: string;
+  csm_name: string;
+  product_usage_score: number;
+  support_tickets_90d: number;
   last_login_days_ago: number;
+  nps_score: number;
+  churn_reason: string;
+  months_as_customer: number;
   renewal_quarter: string;
-  nps: number;
-  risk_flag: "green" | "yellow" | "red";
-  onboarding_status: string;
-  seats_active: number;
-  seats_total: number;
 };
 
-export const RISK_TONE: Record<Account["risk_flag"], { bg: string; fg: string; label: string }> = {
-  green: { bg: "bg-leaf/30", fg: "text-teal", label: "Healthy" },
-  yellow: { bg: "bg-amber/30", fg: "text-ember", label: "Watch" },
-  red: { bg: "bg-ember/25", fg: "text-ember", label: "At risk" }
-};
+export type Tab = "accounts" | "renewals" | "health" | "insights";
