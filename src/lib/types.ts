@@ -21,4 +21,4 @@ export type Customer = {
   renewal_quarter: string;
 };
 
-export type Tab = "accounts" | "renewals" | "health" | "insights";
+export type Tab = "accounts" | "renewals" | "health";
